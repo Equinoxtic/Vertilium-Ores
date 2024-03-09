@@ -1,0 +1,14 @@
+{
+    "result": {
+        "item": "vertiliumores:ingot_vertilium",
+        "count": 9
+    },
+
+    "ingredients": [
+        {
+            "item": "vertiliumores:block_vertilium"
+        }
+    ],
+
+    "type": "minecraft:crafting_shapeless"
+}

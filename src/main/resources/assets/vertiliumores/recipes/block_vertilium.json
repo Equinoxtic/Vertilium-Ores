@@ -1,0 +1,19 @@
+{
+    "result": {
+        "item": "vertiliumores:block_vertilium",
+        "count": 1
+    },
+
+    "pattern": [
+        "OOO",
+        "OOO",
+        "OOO"
+    ],
+    "key": {
+        "O": {
+            "item": "vertiliumores:ingot_vertilium"
+        }
+    },
+
+    "type": "minecraft:crafting_shaped"
+}
