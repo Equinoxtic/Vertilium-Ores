@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "variant=vertiliete": { "model": "vertiliumores:ore_end_vertiliete" }
+    }
+}
