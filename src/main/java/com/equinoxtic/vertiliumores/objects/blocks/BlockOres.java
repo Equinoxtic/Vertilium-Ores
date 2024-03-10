@@ -83,7 +83,7 @@ public class BlockOres extends Block  implements IHasModel, IMetaName
     @Override
     public void registerModels() {
         // Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
-        for (i = 0; i < EnumHandler.EnumType.values().length; i++) {
+        for (int i = 0; i < EnumHandler.EnumType.values().length; i++) {
             Main.proxy.registerVariantRenderer(
                     Item.getItemFromBlock(this),
                     i,
