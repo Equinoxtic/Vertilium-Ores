@@ -54,7 +54,5 @@ public class WorldGenCustomOres implements IWorldGenerator
 
             gen.generate(world, rand, new BlockPos(x, y, z));
         }
-
-
     }
 }

@@ -91,6 +91,10 @@ public class BlockOres extends Block implements IHasModel, IMetaName
         return EnumHandler.EnumType.values()[stack.getItemDamage()].getName();
     }
 
+    /*
+
+        * EXPERIMENTAL PARTICLE EMITTER ON UNIVERSAL ORES FOR THIS MOD
+
     @Override
     @SideOnly(Side.CLIENT)
     public void randomDisplayTick(IBlockState stateIn, World worldIn, BlockPos pos, Random rand) {
@@ -113,6 +117,8 @@ public class BlockOres extends Block implements IHasModel, IMetaName
                 .setFinalTint(Color.WHITE);
         Minecraft.getMinecraft().effectRenderer.addEffect(theParticle);
     }
+
+     */
 
     @Override
     public void registerModels() {
