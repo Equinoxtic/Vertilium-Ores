@@ -15,5 +15,5 @@ public class BlockInit
     public static final Block BLOCK_VERTILIUM = new BlockVertilium(Material.IRON);
 
     public static final Block ORE_VERTILIETE_OVERWORLD = new BlockOres("ore_overworld", "overworld");
-    public static final Block ORE_VERTILIETE_END = new BlockOres("ore_end", "end");
+    // public static final Block ORE_VERTILIETE_END = new BlockOres("ore_end", "end");
 }
