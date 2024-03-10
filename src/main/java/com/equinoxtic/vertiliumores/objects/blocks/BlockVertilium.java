@@ -18,6 +18,8 @@ public class BlockVertilium extends Block implements IHasModel
 
         setUnlocalizedName(block_name);
         setRegistryName(block_name);
+        setHardness(1.1F);
+        setResistance(1.75F);
         setCreativeTab(Main.VERTILIUM_ORES);
 
         BlockInit.BLOCKS.add(this);
