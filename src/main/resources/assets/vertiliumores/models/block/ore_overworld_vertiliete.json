@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "vertiliumores:block/ore_overworld_vertiliete"
+    }
+}
