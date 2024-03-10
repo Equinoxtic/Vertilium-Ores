@@ -15,7 +15,7 @@ import java.util.List;
 
 public class IngotVertilium extends Item implements IHasModel {
 
-    private String item_name = "vertilium_ingot";
+    private String item_name = "ingot_vertilium";
 
     public IngotVertilium() {
         setUnlocalizedName(item_name);
