@@ -2,7 +2,7 @@ package com.equinoxtic.vertiliumores.util.handlers;
 
 import com.equinoxtic.vertiliumores.init.BlockInit;
 import com.equinoxtic.vertiliumores.init.ItemInit;
-import com.equinoxtic.vertiliumores.util.IHasModel;
+import com.equinoxtic.vertiliumores.util.interfaces.IHasModel;
 import com.equinoxtic.vertiliumores.util.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;

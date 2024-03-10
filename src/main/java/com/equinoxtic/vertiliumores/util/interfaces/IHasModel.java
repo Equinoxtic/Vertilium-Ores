@@ -1,4 +1,4 @@
-package com.equinoxtic.vertiliumores.util;
+package com.equinoxtic.vertiliumores.util.interfaces;
 
 public interface IHasModel
 {

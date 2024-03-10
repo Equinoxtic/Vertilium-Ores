@@ -3,7 +3,7 @@ package com.equinoxtic.vertiliumores.objects.blocks;
 import com.equinoxtic.vertiliumores.Main;
 import com.equinoxtic.vertiliumores.init.BlockInit;
 import com.equinoxtic.vertiliumores.init.ItemInit;
-import com.equinoxtic.vertiliumores.util.IHasModel;
+import com.equinoxtic.vertiliumores.util.interfaces.IHasModel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;

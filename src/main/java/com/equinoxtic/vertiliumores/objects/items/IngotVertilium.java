@@ -2,9 +2,8 @@ package com.equinoxtic.vertiliumores.objects.items;
 
 import com.equinoxtic.vertiliumores.Main;
 import com.equinoxtic.vertiliumores.init.ItemInit;
-import com.equinoxtic.vertiliumores.util.IHasModel;
+import com.equinoxtic.vertiliumores.util.interfaces.IHasModel;
 import net.minecraft.client.util.ITooltipFlag;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
