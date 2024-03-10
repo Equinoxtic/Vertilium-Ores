@@ -4,8 +4,10 @@ import com.equinoxtic.vertiliumores.init.BlockInit;
 import com.equinoxtic.vertiliumores.init.ItemInit;
 import com.equinoxtic.vertiliumores.util.interfaces.IHasModel;
 import com.equinoxtic.vertiliumores.util.Reference;
+import com.equinoxtic.vertiliumores.world.gen.WorldGenCustomOres;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.world.World;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -14,6 +16,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod.EventBusSubscriber(modid=Reference.MODID)
 public class RegistryHandler
@@ -49,11 +52,7 @@ public class RegistryHandler
         }
     }
 
-    public static void preInitRegistries(FMLPreInitializationEvent event) {}
-
-    public static void initRegistries(FMLInitializationEvent event) {}
-
-    public static void postInitRegistries(FMLPostInitializationEvent event) {}
-
-    public static void serverRegistries(FMLServerStartingEvent event) {}
+    public static void otherRegistries() {
+        GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+    }
 }

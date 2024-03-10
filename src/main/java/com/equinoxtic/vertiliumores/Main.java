@@ -24,26 +24,16 @@ public class Main
     public static final CreativeTabs VERTILIUM_ORES = new VertiliumOresMainTab();
 
     @Mod.EventHandler
-    public void preInit(FMLPreInitializationEvent event)
-    {
-        RegistryHandler.preInitRegistries(event);
+    public void preInit(FMLPreInitializationEvent event) {
+        RegistryHandler.otherRegistries();
     }
 
     @Mod.EventHandler
-    public void init(FMLInitializationEvent event)
-    {
-        RegistryHandler.initRegistries(event);
-    }
+    public void init(FMLInitializationEvent event) {}
 
     @Mod.EventHandler
-    public void postInit(FMLPostInitializationEvent event)
-    {
-        RegistryHandler.postInitRegistries(event);
-    }
+    public void postInit(FMLPostInitializationEvent event) {}
 
     @Mod.EventHandler
-    public void serverInit(FMLServerStartingEvent event)
-    {
-        RegistryHandler.serverRegistries(event);
-    }
+    public void serverInit(FMLServerStartingEvent event) {}
 }
