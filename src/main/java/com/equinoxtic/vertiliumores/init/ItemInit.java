@@ -16,11 +16,12 @@ public class ItemInit
     // Materials
     public static final ToolMaterial TOOL_VERTILIUM = EnumHelper.addToolMaterial(
             "tool_vertilium",
-            4,
-            2342,
-            8.0F,
-            12.0F,
-            12);
+            4, // Harvest Level
+            2342, // Durability
+            15.0F, // Efficiency
+            12.0F, // Base Damage
+            12 // Enchantability
+    );
 
     // Items
     public static final Item VERTILIUM = new IngotVertilium();
