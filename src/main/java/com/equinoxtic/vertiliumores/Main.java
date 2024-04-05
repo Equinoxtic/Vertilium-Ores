@@ -2,6 +2,7 @@ package com.equinoxtic.vertiliumores;
 
 import com.equinoxtic.vertiliumores.proxy.CommonProxy;
 import com.equinoxtic.vertiliumores.creativetabs.VertiliumOresMainTab;
+import com.equinoxtic.vertiliumores.recipes.SmeltingRecipes;
 import com.equinoxtic.vertiliumores.util.Reference;
 import com.equinoxtic.vertiliumores.util.handlers.RegistryHandler;
 import net.minecraft.creativetab.CreativeTabs;
@@ -29,7 +30,9 @@ public class Main
     }
 
     @Mod.EventHandler
-    public void init(FMLInitializationEvent event) {}
+    public void init(FMLInitializationEvent event) {
+        SmeltingRecipes.init();
+    }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {}
