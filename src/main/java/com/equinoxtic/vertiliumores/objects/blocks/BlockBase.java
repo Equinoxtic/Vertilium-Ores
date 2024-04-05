@@ -25,6 +25,7 @@ public class BlockBase extends Block implements IHasModel
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(Main.VERTILIUM_ORES);
+        setHarvestLevel("pickaxe", 3);
 
         BlockInit.BLOCKS.add(this);
 
