@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "vertiliumores:item/pickaxe_vertilium"
+    }
+}
