@@ -15,7 +15,7 @@ public class ItemInit
 
     // Materials
     public static final ToolMaterial PICKAXE_MATERIAL = EnumHelper.addToolMaterial(
-            "tool_vertilium",
+            "tool_pickaxe_vertilium",
             4, // Harvest Level
             2342, // Durability
             15.0F, // Efficiency
