@@ -12,7 +12,6 @@ public class ToolPickaxe extends ItemPickaxe implements IHasModel
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(Main.VERTILIUM_ORES);
-        setHarvestLevel("pickaxe", 4);
 
         ItemInit.ITEMS.add(this);
     }

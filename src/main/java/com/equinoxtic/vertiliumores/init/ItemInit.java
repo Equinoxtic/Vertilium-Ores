@@ -14,7 +14,7 @@ public class ItemInit
     public static final List<Item> ITEMS = new ArrayList<Item>();
 
     // Materials
-    public static final ToolMaterial TOOL_VERTILIUM = EnumHelper.addToolMaterial(
+    public static final ToolMaterial PICKAXE_MATERIAL = EnumHelper.addToolMaterial(
             "tool_vertilium",
             4, // Harvest Level
             2342, // Durability
@@ -27,5 +27,5 @@ public class ItemInit
     public static final Item VERTILIUM = new IngotVertilium();
 
     // Tools
-    public static final Item PICKAXE_VERTILIUM = new ToolPickaxe("pickaxe_vertilium", TOOL_VERTILIUM);
+    public static final Item PICKAXE_VERTILIUM = new ToolPickaxe("pickaxe_vertilium", PICKAXE_MATERIAL);
 }
